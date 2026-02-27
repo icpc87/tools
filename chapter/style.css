@@ -1,1 +1,73 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.prose-code::before, .prose-code::after {
+    content: none;
+}
+
+/* スクロールバーのカスタマイズ */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* 拡張機能連携状態の表示用アニメーション */
+@keyframes pulse-green {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(74, 222, 128, 0); }
+}
+.connection-active {
+    animation: pulse-green 2s infinite;
+    border-color: #22c55e !important;
+}
+
+/* プレイヤー用スタイル */
+.player-control-button {
+    color: white;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+.player-control-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.player-control-button:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/* ギャラリー画像のホバーオーバーレイ & アニメーション */
+.screenshot-img-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.screenshot-img-container .hover-overlay {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.screenshot-img-container:hover .hover-overlay {
+    opacity: 1;
+}
+
+@keyframes customFadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.fade-in-anim {
+    animation: customFadeIn 0.4s ease-out forwards;
+}
 
