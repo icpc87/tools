@@ -1,7 +1,7 @@
 const defaultInfo = {
-  episodeNumber: "307",
-  youtubeLink: "https://youtu.be/GN2QfR15wwA",
+  episodeNumber: "310",
+  youtubeLink: "https://youtu.be/-XW-nnls_Vc",
   youtubeStart: "2:19:35",
-  rumbleLink: "https://rumble.com/v6ylc3q",
+  rumbleLink: "https://rumble.com/v774kmu-newepisode310heavenese-style-2026.3.15.html",
   rumbleStart: "2:20:22"
 };
