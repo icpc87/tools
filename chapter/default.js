@@ -1,8 +1,8 @@
 const defaultInfo = {
-  episodeNumber: "319",
-  publishDate: "2026-05-17",
-  youtubeLink: "https://youtu.be/eBLrM_AxBag",
-  youtubeStart: "1:48:36",
-  rumbleLink: "https://rumble.com/v79yl8q-newepisode319heavenese-style-2026.5.17.html",
-  rumbleStart: "1:49:17"
+  episodeNumber: "328",
+  publishDate: "2026-07-19",
+  youtubeLink: "https://youtu.be/9gCa8FMZkSw",
+  youtubeStart: "2:09:47",
+  rumbleLink: "https://rumble.com/v7cxnbu-newepisode328heavenese-style-2026.7.19.html",
+  rumbleStart: "2:10:19"
 };
