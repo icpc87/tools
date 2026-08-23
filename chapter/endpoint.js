@@ -1,3 +1,4 @@
 {
   "episodeApi": "https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnQ3gik0IOPP1o2zdVflCnzeMuJzvHYW_NCwwBSxF4jJcl800WTTRgxgaVOKCARrgGw2KcJ7TmSL2gz75mmAzfa47ZYmfAgw7ltYfkUVdKY2CEi7A8Rzv6Ws-fWhH3md46aD7fSuP04AbBdya7uaxW16LTZ4g-NPLvJwxcZn1eqq7od0jLD-tsmmSIFL2Pi-vg0pEmeadvU1w4FHDyzxZHqv2qXBZjdqIkzXHVfGR6M3GrpPkgSYMRd-juB_rxWFyi6Z6vbA9nuStq-WDNPdnCF6V2G6Ug&lib=MrZKY0EUiPMBGrdZ5wELFPW3b4bWQYTXk"
+  "chapterApi": "https://script.google.com/macros/s/AKfycbxEA_n2U_EmDm-cPGN_DKYa5dtVT1YG6MtbBz6b6gkr1hg99LWQyIdxMm4sJZZ9vIX5/exec"
 }
